@@ -53,3 +53,6 @@ I added an adoption-stall class so I can create a 'padded box' for that section 
 
 ## 14th Update
 I added 200px to the left and right side margins of of adoption-stall class to push the margins inward give the appearance that I changed the size of the box, even though I did not.
+
+## 15th Update
+I refractored the stall section on the adopt.hmtl to create two "padded boxes" with the same style right next to eaxh other, adding a VIP lounge where extra rare pets will go. I also add a 20px padding at the bottom of the class in the styles.css so there would be space in-between them.
