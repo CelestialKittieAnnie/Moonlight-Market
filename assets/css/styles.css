@@ -43,6 +43,11 @@ p {
 
 .top-nav {
   display: flex;
+  justify-content: center;
+}
+
+.top-nav a {
+  margin: 0 12px; /* adjust 12px to taste */
 }
 
 #hero-title {

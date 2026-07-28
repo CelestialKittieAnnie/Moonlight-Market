@@ -59,3 +59,6 @@ I refractored the stall section on the adopt.hmtl to create two "padded boxes" w
 
 ## 16th Update
 I added an element to build a true consisent top-nav bar across all my pages. I added it to both my index.html & adopt.html's headers. I also added a flex display effect in styles.css for the top-nav class. This will ensure that we can control the spacing in between the links in the navbar automatically. It's default sets it at the far left side of the page and with very little space in-between the links.
+
+## 17th Update
+I used justify-content to re-center the text. Since justify-content can have only one value, I also added a styling element to the styles.css to specifally apply margins only to all <a> tags using jusify-conent. These are two seperate elements because an element can only justify-content one time.
