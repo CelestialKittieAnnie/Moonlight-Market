@@ -41,6 +41,10 @@ p {
   border: 4px solid pink;
 }
 
+.top-nav {
+  display: flex;
+}
+
 #hero-title {
   color: gold;
 }

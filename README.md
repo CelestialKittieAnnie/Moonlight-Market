@@ -56,3 +56,6 @@ I added 200px to the left and right side margins of of adoption-stall class to p
 
 ## 15th Update
 I refractored the stall section on the adopt.hmtl to create two "padded boxes" with the same style right next to eaxh other, adding a VIP lounge where extra rare pets will go. I also add a 20px padding at the bottom of the class in the styles.css so there would be space in-between them.
+
+## 16th Update
+I added an element to build a true consisent top-nav bar across all my pages. I added it to both my index.html & adopt.html's headers. I also added a flex display effect in styles.css for the top-nav class. This will ensure that we can control the spacing in between the links in the navbar automatically. It's default sets it at the far left side of the page and with very little space in-between the links.
