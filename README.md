@@ -26,3 +26,6 @@ Restored the pinup_witch.png to it's rightful place in the header element of the
 
 ## 5th update
 Decided the pinup_witch.png shpuld go in the header, and the head remain only the title for clarity. Also updated both the index & adopt .html's with nav tags wrapped around the links for clean code and to add Navbar elemenent with style later on that will be used for consisent styling across all pages for the Navbar later on.
+
+## 6th update
+Wrapped the nav element on the adopt.html in footer tags as this should always be on the bottom of the main content. I am not doing this with the nav for adoption stalls on the index.html because there will be things added later that should be after this, not before it.
