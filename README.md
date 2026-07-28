@@ -35,3 +35,6 @@ I created a styles.css in my assets/css folder structure and then linked both my
 
 ## 8th Update
 I have made the paragraph text be 20xp so it is smaller. I also changed the body background color, and centered the text for all body and head elements. I also added this, css to make sure that the list componetent ( 1., exp.) show up 'inside' so they are centered with the text and not set to the far left side of the page.
+
+## 9th Update
+I did a simple resize of the images so they weren't taking up a crazy amount of space anymore and I added text size for both h2 and h3 in the styles.css for a cleaner and more appealing style.
