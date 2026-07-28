@@ -16,4 +16,4 @@ Although I am already quite familiar with HTML, this course introduced me to a f
 On my index.html I wrapped the first four elements in my body tag in a header tag to turn it into one elemnent for cleaner code.
 
 ## 2nd Update
-On my index.html I wrapped the remaining elements into one 'main' element inside the body tags. It is main continent because it is everything after the heading. This cleans up the code further.
+On my index.html I wrapped the remaining elements into one 'main' element inside the body tags. It is main content because it is everything after the heading. This cleans up the code further.
