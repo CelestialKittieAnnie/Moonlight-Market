@@ -24,11 +24,14 @@ On my adopt.html I wrapped all of the elemnets inside the body tags in main tags
 ## 4th Update
 Restored the pinup_witch.png to it's rightful place in the header element of the index.html as it was accidently deleted when re-organizing code. I also divided the main content on the adopt.html into two sections and fixed small syntax errors.
 
-## 5th update
+## 5th Update
 Decided the pinup_witch.png shpuld go in the header, and the head remain only the title for clarity. Also updated both the index & adopt .html's with nav tags wrapped around the links for clean code and to add Navbar elemenent with style later on that will be used for consisent styling across all pages for the Navbar later on.
 
-## 6th update
+## 6th Update
 Wrapped the nav element on the adopt.html in footer tags as this should always be on the bottom of the main content. I am not doing this with the nav for adoption stalls on the index.html because there will be things added later that should be after this, not before it.
 
-## 7th update
+## 7th Update
 I created a styles.css in my assets/css folder structure and then linked both my .hml's to this stylesheet by placing the link in the head under the title of each one. I then created a simple body element for the css with a background color I could easily see if it shows up and adjust the text size for h1.
+
+## 8th Update
+I have made the paragraph text be 20xp so it is smaller. I also changed the body background color, and centered the text for all body and head elements. I also added this, css to make sure that the list componetent ( 1., exp.) show up 'inside' so they are centered with the text and not set to the far left side of the page.
