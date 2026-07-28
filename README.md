@@ -20,3 +20,6 @@ On my index.html I wrapped the remaining elements into one 'main' element inside
 
 ## 3rd Update
 On my adopt.html I wrapped all of the elemnets inside the body tags in main tags. The next step is to clean it up further and divy it into sections.
+
+## 4th Update
+Restored the pinup_witch.png to it's rightful place in the header element of the index.html as it was accidently deleted when re-organizing code. I also divided the main content on the adopt.html into two sections and fixed small syntax errors.
