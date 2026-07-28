@@ -17,3 +17,6 @@ On my index.html I wrapped the first four elements in my body tag in a header ta
 
 ## 2nd Update
 On my index.html I wrapped the remaining elements into one 'main' element inside the body tags. It is main content because it is everything after the heading. This cleans up the code further.
+
+## 3rd Update
+On my adopt.html I wrapped all of the elemnets inside the body tags in main tags. The next step is to clean it up further and divy it into sections.
