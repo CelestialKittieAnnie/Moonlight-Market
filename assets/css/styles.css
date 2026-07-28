@@ -32,6 +32,12 @@ p {
   background-color: rgb(160, 160, 234);
 }
 
+.adoption-stall {
+  background-color: rgb(53, 37, 112);
+  padding: 20px;
+  border: 4px solid pink;
+}
+
 #hero-title {
   color: gold;
 }

@@ -47,3 +47,6 @@ I added the same greeting class to the intro paragraph on the adopt.index for co
 
 ## 12th Update
 I added a new .note class and styling for it and then applied it to my list and their headings to make them 'pop' from the page and catch the eye.
+
+## 13th Update
+I added an adoption-stall class so I can create a 'padded box' for that section on my adopt.html. I added padding, which is space between the element and it's border. I also added a different background color with a small solid pink border so it pops out.
