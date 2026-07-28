@@ -35,6 +35,8 @@ p {
 .adoption-stall {
   background-color: rgb(53, 37, 112);
   padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
   border: 4px solid pink;
 }
 

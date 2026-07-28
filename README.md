@@ -50,3 +50,6 @@ I added a new .note class and styling for it and then applied it to my list and 
 
 ## 13th Update
 I added an adoption-stall class so I can create a 'padded box' for that section on my adopt.html. I added padding, which is space between the element and it's border. I also added a different background color with a small solid pink border so it pops out.
+
+## 14th Update
+I added 200px to the left and right side margins of of adoption-stall class to push the margins inward give the appearance that I changed the size of the box, even though I did not.
