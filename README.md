@@ -23,3 +23,6 @@ On my adopt.html I wrapped all of the elemnets inside the body tags in main tags
 
 ## 4th Update
 Restored the pinup_witch.png to it's rightful place in the header element of the index.html as it was accidently deleted when re-organizing code. I also divided the main content on the adopt.html into two sections and fixed small syntax errors.
+
+## 5th update
+Decided the pinup_witch.png shpuld go in the header, and the head remain only the title for clarity. Also updated both the index & adopt .html's with nav tags wrapped around the links for clean code and to add Navbar elemenent with style later on that will be used for consisent styling across all pages for the Navbar later on.
