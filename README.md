@@ -11,3 +11,6 @@ From now on, I will be manually pushing updates to GitHub and adding comments de
 ## What I Learned
 
 Although I am already quite familiar with HTML, this course introduced me to a fantastic new tool: the **Live Server** ("Go Live") extension for Visual Studio Code. After years of manually refreshing the browser every time I changed a tiny detail, this extension has been a total game-changer. It is incredibly convenient and saves so much time and exhaustion!
+
+## 1st Update
+On my index.html I wrapped the first four elements in my body tag in a header tag to turn it into one elemnent for cleaner code.
