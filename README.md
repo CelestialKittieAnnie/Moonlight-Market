@@ -29,3 +29,6 @@ Decided the pinup_witch.png shpuld go in the header, and the head remain only th
 
 ## 6th update
 Wrapped the nav element on the adopt.html in footer tags as this should always be on the bottom of the main content. I am not doing this with the nav for adoption stalls on the index.html because there will be things added later that should be after this, not before it.
+
+## 7th update
+I created a styles.css in my assets/css folder structure and then linked both my .hml's to this stylesheet by placing the link in the head under the title of each one. I then created a simple body element for the css with a background color I could easily see if it shows up and adjust the text size for h1.
