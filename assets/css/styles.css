@@ -27,6 +27,10 @@ p {
   color: pink;
 }
 
+#hero-title {
+  color: gold;
+}
+
 ul, ol {
   list-style-position: inside;
 }

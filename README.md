@@ -41,3 +41,6 @@ I did a simple resize of the images so they weren't taking up a crazy amount of 
 
 ## 10th Update
 I turned the greeting paragraph on my index.html into it's own class so that way I could us it in order to create it's own special styling on the css. This will allow me to customize indviual componets while leaving the things I want with the same styling alone.
+
+## 11th Update
+I added the same greeting class to the intro paragraph on the adopt.index for consient styling. I gave the title on my index.html a unuqie id. This is a one-time use per page. It cannot be used multiple times per page as a class can.
