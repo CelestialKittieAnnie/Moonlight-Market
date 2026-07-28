@@ -27,6 +27,11 @@ p {
   color: pink;
 }
 
+.note {
+  font-style: italic;
+  background-color: rgb(160, 160, 234);
+}
+
 #hero-title {
   color: gold;
 }

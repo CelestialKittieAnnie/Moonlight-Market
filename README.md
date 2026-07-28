@@ -44,3 +44,6 @@ I turned the greeting paragraph on my index.html into it's own class so that way
 
 ## 11th Update
 I added the same greeting class to the intro paragraph on the adopt.index for consient styling. I gave the title on my index.html a unuqie id. This is a one-time use per page. It cannot be used multiple times per page as a class can.
+
+## 12th Update
+I added a new .note class and styling for it and then applied it to my list and their headings to make them 'pop' from the page and catch the eye.
