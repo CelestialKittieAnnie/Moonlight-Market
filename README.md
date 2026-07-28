@@ -38,3 +38,6 @@ I have made the paragraph text be 20xp so it is smaller. I also changed the body
 
 ## 9th Update
 I did a simple resize of the images so they weren't taking up a crazy amount of space anymore and I added text size for both h2 and h3 in the styles.css for a cleaner and more appealing style.
+
+## 10th Update
+I turned the greeting paragraph on my index.html into it's own class so that way I could us it in order to create it's own special styling on the css. This will allow me to customize indviual componets while leaving the things I want with the same styling alone.

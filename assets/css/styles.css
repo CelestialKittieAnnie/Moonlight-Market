@@ -23,6 +23,10 @@ p {
   font-size: 20px;
 }
 
+.shop-greeting {
+  color: pink;
+}
+
 ul, ol {
   list-style-position: inside;
 }
