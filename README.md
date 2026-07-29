@@ -13,7 +13,7 @@ From now on, I will be manually pushing updates to GitHub and adding comments de
 Although I am already quite familiar with HTML, this course introduced me to a fantastic new tool: the **Live Server** ("Go Live") extension for Visual Studio Code. After years of manually refreshing the browser every time I changed a tiny detail, this extension has been a total game-changer. It is incredibly convenient and saves so much time and exhaustion!
 
 ## 1st Update
-On my index.html I wrapped the first four elements in my body tag in a header tag to turn it into one elemnent for cleaner code.
+On my index.html I wrapped the first four elements in my body tag in a header tag to turn it into one element for cleaner code.
 
 ## 2nd Update
 On my index.html I wrapped the remaining elements into one 'main' element inside the body tags. It is main content because it is everything after the heading. This cleans up the code further.
@@ -71,3 +71,6 @@ I have added a pet-grid div class to the Adoption Stalls 'padded box' on the ado
 
 ## 20th Update
 I have added the pet-grid styling to styles.css to set the display to flex and to jusify-content in the center. As we know this will set them to all display on the same row, right next to each other. I will have to set margin padding in order to put some space in-between. I will also need to resize my images to my preferred size. I also added more of my images.
+
+## 21st Update
+I have added styling rules in the styles.css for the images inside the pet-grid. I changed the hegiht and width of the images because they were way too big and I needed to make sure I changed them to values that would scale it down without warping the image. I also added the margin I had mentioned last update. Along with using cover to call object-fit on my 'padded pet cards' so they stay neatly inside the Adoption Stalls.

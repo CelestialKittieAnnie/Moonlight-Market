@@ -64,6 +64,13 @@ p {
   justify-content: center;
 }
 
+.pet-grid img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin: 0 8px;
+}
+
 #hero-title {
   color: gold;
 }
