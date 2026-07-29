@@ -90,6 +90,11 @@ p {
   border-color: gold;
 }
 
+.pet-grid img:hover {
+  box-shadow: 0 0 12px rgba(67, 223, 46, 0.7);
+  transform: scale(1.03);
+}
+
 ul, ol {
   list-style-position: inside;
 }
