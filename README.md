@@ -65,3 +65,6 @@ I used justify-content to re-center the text. Since justify-content can have onl
 
 ## 18th Update
 I did what I just did in updates 16 & 17 except with the bottom nav instead of the top navbar. This creates consistancey in styling my navs across my website.
+
+## 19th Update
+I have added a pet-grid div class to the Adoption Stalls 'padded box' on the adopt.html, here it will display pets available for adoption in their own 'padded box'. I have put in one custom pet image and will add more later on. This is just the bare skeleton for the pet-grid div.
