@@ -73,4 +73,7 @@ I have added a pet-grid div class to the Adoption Stalls 'padded box' on the ado
 I have added the pet-grid styling to styles.css to set the display to flex and to jusify-content in the center. As we know this will set them to all display on the same row, right next to each other. I will have to set margin padding in order to put some space in-between. I will also need to resize my images to my preferred size. I also added more of my images.
 
 ## 21st Update
-I have added styling rules in the styles.css for the images inside the pet-grid. I changed the hegiht and width of the images because they were way too big and I needed to make sure I changed them to values that would scale it down without warping the image. I also added the margin I had mentioned last update. Along with using cover to call object-fit on my 'padded pet cards' so they stay neatly inside the Adoption Stalls.
+I have added styling rules in the styles.css for the images inside the pet-grid. I changed the height and width of the images because they were way too big and I needed to make sure I changed them to values that would scale it down without warping the image. I also added the margin I had mentioned last update. Along with using cover to call object-fit on my 'padded pet cards' so they stay neatly inside the Adoption Stalls.
+
+## 22nd Update
+I use the css stylesheet to set the border-radius to 50% which crops the images into a circular form. I then added  a solid pink border thick enough to be visible and pretty it up some. I almost did dotted but decided I like solid better for these because how busy my images are.
