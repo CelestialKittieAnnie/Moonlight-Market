@@ -23,13 +23,25 @@ p {
   font-size: 20px;
 }
 
+#sub-title {
+  font-size: 20px;
+  color: gold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
 .shop-greeting {
   color: pink;
+  margin-bottom: -12px;
 }
 
 .note {
   font-style: italic;
   background-color: rgb(160, 160, 234);
+  padding: 8px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border: 4px dotted pink;
 }
 
 .adoption-stall {
@@ -44,10 +56,11 @@ p {
 .top-nav {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .top-nav a {
-  margin: 0 12px; /* adjust 12px to taste */
+  margin: 0 12px;
 }
 
 .footer-nav {
@@ -110,10 +123,28 @@ p {
   border-radius: 8px;
 }
 
-ul, ol {
-  list-style-position: inside;
+#hero-title {
+  font-size: 36px;
+  color: gold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-img {
-  max-width: 300px;
+ul, ol {
+  list-style-position: inside;
+  padding: 8px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 4px dotted pink;
+}
+
+img.pinup-witch {
+  max-width: 280px;
+  border-radius: 20%;
+  border: 6px solid silver;
+}
+
+img.moon-image {
+  max-width: 280px;
+  border-radius: 50%;
+  border: 8px double silver;
 }
