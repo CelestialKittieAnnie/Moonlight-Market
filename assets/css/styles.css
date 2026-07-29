@@ -101,6 +101,15 @@ p {
   transform: scale(1.03);
 }
 
+.roadmap-card {
+  background-color: rgb(96, 96, 180);
+  padding: 12px;
+  margin: 20px auto;
+  max-width: 600px;
+  border: 2px solid pink;
+  border-radius: 8px;
+}
+
 ul, ol {
   list-style-position: inside;
 }

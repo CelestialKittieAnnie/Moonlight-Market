@@ -89,3 +89,6 @@ I moved three pets down into a new pet-grid div with a second class, vip-grid, u
 
 ## 26th Update
 All I did this time was update my pet images to better ones and finish filling in the missing ones. It took awhile beacuse I am generating them on my Mac Laptop with draw things, and I went with higher qaulity images.
+
+## 27th Update
+I wrapped the bottom main element and nav in it's own 'roadmap-card' section. I then added style rules for this class. I changed the background color to be lighter and added a solid pink border for it to pop. I then added some padding and margin but with margin I added 'auto'. Which means set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. I also added a very small border radius to give the 'padded box' rounded corners.
