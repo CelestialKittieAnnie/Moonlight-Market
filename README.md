@@ -62,3 +62,6 @@ I added an element to build a true consisent top-nav bar across all my pages. I 
 
 ## 17th Update
 I used justify-content to re-center the text. Since justify-content can have only one value, I also added a styling element to the styles.css to specifally apply margins only to all <a> tags using jusify-conent. These are two seperate elements because an element can only justify-content one time.
+
+## 18th Update
+I did what I just did in updates 16 & 17 except with the bottom nav instead of the top navbar. This creates consistancey in styling my navs across my website.

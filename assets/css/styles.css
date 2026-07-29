@@ -50,6 +50,15 @@ p {
   margin: 0 12px; /* adjust 12px to taste */
 }
 
+.footer-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav a {
+  margin: 0 12px;
+}
+
 #hero-title {
   color: gold;
 }
