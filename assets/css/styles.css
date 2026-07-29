@@ -74,6 +74,12 @@ p {
   border: 4px solid pink;
 }
 
+.vip-grid img {
+  width: 140px;
+  height: 140px;
+  box-shadow: 0 0 18px gold;
+}
+
 .pet-grid img.fire-pet {
   border-color: rgb(220, 7, 7);
 }

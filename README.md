@@ -83,3 +83,6 @@ I added a class to all my pet images, like "moon-pet" and "shadow-pet". I have a
 
 ## 24th Update
 I added a simple but effective (and pretty) styling rule to the pet-grid images that cause the images to 'transform' and get just slightly bigger when hovering over a pet image, along with a slight and light green glow.
+
+## 25th Update
+I moved three pets down into a new pet-grid div with a second class, vip-grid, under the VIP Lounge. Then I added a special styling rule to that .vip-grid class so the images in the VIP Lounge are slighly bigger and they always have a glowing shadow around them but it is a gold, so when you hover you it will still change to green.
