@@ -86,3 +86,6 @@ I added a simple but effective (and pretty) styling rule to the pet-grid images 
 
 ## 25th Update
 I moved three pets down into a new pet-grid div with a second class, vip-grid, under the VIP Lounge. Then I added a special styling rule to that .vip-grid class so the images in the VIP Lounge are slighly bigger and they always have a glowing shadow around them but it is a gold, so when you hover you it will still change to green.
+
+## 26th Update
+All I did this time was update my pet images to better ones and finish filling in the missing ones. It took awhile beacuse I am generating them on my Mac Laptop with draw things, and I went with higher qaulity images.
