@@ -77,3 +77,6 @@ I have added styling rules in the styles.css for the images inside the pet-grid.
 
 ## 22nd Update
 I use the css stylesheet to set the border-radius to 50% which crops the images into a circular form. I then added  a solid pink border thick enough to be visible and pretty it up some. I almost did dotted but decided I like solid better for these because how busy my images are.
+
+## 23rd Update
+I added a class to all my pet images, like "moon-pet" and "shadow-pet". I have also added styling rules to the stylesheet for each of the pet classes. It only chnages the color of the border based on it's pet class. It will only override the "pink" on the style rule for pet-grid images. I have made sure to place these specific pet class styling rules under the original pet-grid img because of the 'cascade' rule of stylesheets. I had to be very, very specific about where I was pointing to in the code. The colors did not change at first, si I changed just '.moon-pet' and the rest to '.pet-grid img.moon-pet'. I relearned here that I alays need to be careful that I am in fact pointing to the specific element I want so the code runs correctly.
