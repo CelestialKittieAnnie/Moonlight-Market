@@ -59,6 +59,11 @@ p {
   margin: 0 12px;
 }
 
+.pet-grid {
+  display: flex;
+  justify-content: center;
+}
+
 #hero-title {
   color: gold;
 }

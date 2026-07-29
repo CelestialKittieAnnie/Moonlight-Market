@@ -68,3 +68,6 @@ I did what I just did in updates 16 & 17 except with the bottom nav instead of t
 
 ## 19th Update
 I have added a pet-grid div class to the Adoption Stalls 'padded box' on the adopt.html, here it will display pets available for adoption in their own 'padded box'. I have put in one custom pet image and will add more later on. This is just the bare skeleton for the pet-grid div.
+
+## 20th Update
+I have added the pet-grid styling to styles.css to set the display to flex and to jusify-content in the center. As we know this will set them to all display on the same row, right next to each other. I will have to set margin padding in order to put some space in-between. I will also need to resize my images to my preferred size. I also added more of my images.
