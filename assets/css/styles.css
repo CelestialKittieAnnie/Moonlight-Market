@@ -3,7 +3,7 @@ head {
 }
 
 body {
-  background-color: mediumslateblue;
+  background-color: rgb(49, 84, 21);
   text-align: center;
 }
 
@@ -31,26 +31,26 @@ p {
 }
 
 .shop-greeting {
-  color: pink;
+  color: rgb(120, 175, 233);
   margin-bottom: -12px;
 }
 
 .note {
   font-style: italic;
-  background-color: rgb(160, 160, 234);
+  background-color: rgb(24, 69, 37);
   padding: 8px;
   margin-left: 120px;
   margin-right: 120px;
-  border: 4px dotted pink;
+  border: 2px double rgb(197, 189, 30);
 }
 
 .adoption-stall {
-  background-color: rgb(53, 37, 112);
+  background-color: rgb(24, 69, 37);
   padding: 20px;
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 20px;
-  border: 4px solid pink;
+  border: 4px solid rgb(197, 189, 30);
 }
 
 .top-nav {
@@ -84,7 +84,7 @@ p {
   margin: 0 8px;
 
   border-radius: 50%;
-  border: 4px solid pink;
+  border: 4px solid rgb(0, 0, 0);
 }
 
 .vip-grid img {
@@ -115,11 +115,11 @@ p {
 }
 
 .roadmap-card {
-  background-color: rgb(96, 96, 180);
+  background-color: rgb(30, 53, 27);
   padding: 12px;
   margin: 20px auto;
   max-width: 600px;
-  border: 2px solid pink;
+  border: 2px solid rgb(230, 226, 39);
   border-radius: 8px;
 }
 
@@ -134,17 +134,26 @@ ul, ol {
   padding: 8px;
   margin-left: 80px;
   margin-right: 80px;
-  border: 4px dotted pink;
+  border: 4px dotted gold;
+  color: rgb(0, 0, 0); /* use 'color' for text */
+}
+
+ul a, ol a {
+  color: inherit; 
+  text-decoration: none;
+}
+ul a:visited, ol a:visited {
+  color: gold;
 }
 
 img.pinup-witch {
   max-width: 280px;
   border-radius: 20%;
-  border: 6px solid silver;
+  border: 6px solid gold;
 }
 
 img.moon-image {
   max-width: 280px;
   border-radius: 50%;
-  border: 8px double silver;
+  border: 8px double gold;
 }
