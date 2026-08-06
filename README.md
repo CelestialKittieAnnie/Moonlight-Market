@@ -101,3 +101,7 @@ I am planning to refactor and completely change my web pages away from the origi
 
 ## 30th Update 
 Fixed some indexing issues, and changed the content of my elements to convert the webpage into "Tales from the Aesopian Realm" instead of "Moonlight Market". I also changed styling colors to match the theme of this re-factor. I also did some slight tweaks to resizing elements and layouts of list, along with adding new links following the same pattern I used to create the originals. I also wanted to change the color of my links on my second page becuase their default looked horrible on my page. I did this by pulling up notes and reserach from my time at FLCC, here at Maestro, and my own self-studies as I couldn't rember how.
+
+
+## 31st Update
+I fixed small errors in my code, syntax and placement from re-fractoring. 
