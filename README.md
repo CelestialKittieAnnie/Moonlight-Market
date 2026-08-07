@@ -109,3 +109,6 @@ I also, moving on with my lessons, have added a small script into my index.html 
 
 ## 32nd Update
 I have just moved the JS code to it's own script in sides my folder that will hold my scripts in my assets. I then call the script now in place of the raw JS code being in my html files.
+
+## 33rd Update
+In my main.js I wrote a small script that does the same thing in two different ways. "sub-title" uses the raw id name and "#sub-title" uses a CSS selector. I used both of these to create and call two different constants for the same html element. 
