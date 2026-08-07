@@ -6,10 +6,12 @@ const subTitle2 = document.querySelector("#sub-title");
 
 const firstNav = document.querySelector(".top-nav");
 
+subTitle.innerHTML = "Welcome back to the <strong>Aesopian Realm</strong>!";
+
+subTitle.style.color = "red";
+
 console.log(subTitle);
 
 console.log(subTitle2);
 
 console.log(firstNav);
-
-subTitle.textContent = "Welcome back to the Aesopian Realm!";

@@ -124,3 +124,6 @@ Directly following the last update I added to cosole logs just like the one I us
 
 ## 37th Update
 I used textContent on my subTitle constant in my main.js to change it to a "special message for return vistitors". This is temporary and only there now to showcase my knowledge. textContent treats everything as plain text so you can't use styling on the text. Like italics or bolding.
+
+## 38th Update
+In order to use styling you use innerHTML and place the "<strong>, <em>, ect" tags inside of your string. I updated my example to use this. I have also used style.color to change the color of the subtitle text with JS to red.
