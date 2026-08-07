@@ -117,4 +117,7 @@ In my main.js I wrote a small script that does the same thing in two different w
 In the same way I used the querySelector for my subTitle2 constant that stores a specific id, I did this with my top-nav class. Because this is a class and not and id, we use a "." instead of a "#".
 
 ## 35th Update
-You can use querySelectorAll to grab an entire "Nodelist" of every one of that element on the page. For me I actually created a second script file to do this and added it to my choose_faction page instead of my index. As I have multiple <sections> so it was perfect to showcase this. 
+You can use querySelectorAll to grab an entire "Nodelist" of every one of that element on the page. For me I actually created a second script file to do this and added it to my choose_faction page instead of my index. As I have multiple <sections> so it was perfect to showcase this.
+
+## 36th Update
+Directly following the last update I added to cosole logs just like the one I used last time, except with [0] added on one and [1]. Because the counting actually starts at 0. This is telling the JS to show us section one and then section 2 specifically from all the sections it just grabbed.
