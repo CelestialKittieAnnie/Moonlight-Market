@@ -112,3 +112,6 @@ I have just moved the JS code to it's own script in sides my folder that will ho
 
 ## 33rd Update
 In my main.js I wrote a small script that does the same thing in two different ways. "sub-title" uses the raw id name and "#sub-title" uses a CSS selector. I used both of these to create and call two different constants for the same html element. 
+
+## 34th Update
+In the same way I used the querySelector for my subTitle2 constant that stores a specific id, I did this with my top-nav class. Because this is a class and not and id, we use a "." instead of a "#".
