@@ -11,3 +11,5 @@ console.log(subTitle);
 console.log(subTitle2);
 
 console.log(firstNav);
+
+subTitle.textContent = "Welcome back to the Aesopian Realm!";

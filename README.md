@@ -121,3 +121,6 @@ You can use querySelectorAll to grab an entire "Nodelist" of every one of that e
 
 ## 36th Update
 Directly following the last update I added to cosole logs just like the one I used last time, except with [0] added on one and [1]. Because the counting actually starts at 0. This is telling the JS to show us section one and then section 2 specifically from all the sections it just grabbed.
+
+## 37th Update
+I used textContent on my subTitle constant in my main.js to change it to a "special message for return vistitors". This is temporary and only there now to showcase my knowledge. textContent treats everything as plain text so you can't use styling on the text. Like italics or bolding.
