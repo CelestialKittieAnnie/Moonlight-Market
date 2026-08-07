@@ -115,3 +115,6 @@ In my main.js I wrote a small script that does the same thing in two different w
 
 ## 34th Update
 In the same way I used the querySelector for my subTitle2 constant that stores a specific id, I did this with my top-nav class. Because this is a class and not and id, we use a "." instead of a "#".
+
+## 35th Update
+You can use querySelectorAll to grab an entire "Nodelist" of every one of that element on the page. For me I actually created a second script file to do this and added it to my choose_faction page instead of my index. As I have multiple <sections> so it was perfect to showcase this. 
