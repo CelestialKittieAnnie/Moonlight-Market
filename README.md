@@ -105,3 +105,4 @@ Fixed some indexing issues, and changed the content of my elements to convert th
 
 ## 31st Update
 I fixed small errors in my code, syntax and placement from re-fractoring. 
+I also, moving on with my lessons, have added a small script into my index.html My net step is to move it into it's own script. Even though you CAN put JS in the html files themselves. I find it cleaner for them to be there own files, I often split my script files down to be clean and modular. I find this way more managable. But I am uploading this to show proof of my ability to do it.
