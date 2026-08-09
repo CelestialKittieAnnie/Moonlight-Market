@@ -130,3 +130,6 @@ In order to use styling you use innerHTML and place the "strong, em, ect" tags i
 
 ## 39th Update
 I added an ID to the choose_faction.html link on the index page with JS, becuase I did not actually create this page, it gave this error when I clicked the link Cannot GET /profile.html. Which is actually exactly what we wanted to see. It means the JS worked, the script just doesn't exist. I did this to showcase my skill for school.
+
+## 40th Update
+I removed the broken faction link so it will work, as that was only temporary. I also used a document.body.style.backgroundColor = "black"; to use JS to change the background of the faction page.
