@@ -127,3 +127,6 @@ I used textContent on my subTitle constant in my main.js to change it to a "spec
 
 ## 38th Update
 In order to use styling you use innerHTML and place the "strong, em, ect" tags inside of your string. I updated my example to use this. I have also used style.color to change the color of the subtitle text with JS to red.
+
+## 39th Update
+I added an ID to the choose_faction.html link on the index page with JS, becuase I did not actually create this page, it gave this error when I clicked the link Cannot GET /profile.html. Which is actually exactly what we wanted to see. It means the JS worked, the script just doesn't exist. I did this to showcase my skill for school.
