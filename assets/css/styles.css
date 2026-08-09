@@ -163,3 +163,14 @@ img.moon-image {
   opacity: 0.6;
   background-color: rgba(200, 180, 255, 0.25); /* soft lavender aura */
 }
+
+.banish-button {
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 14px;
+  background-color: darkred;
+  color: gold;
+  border: 1px solid gold;
+  border-radius: 4px;
+  cursor: pointer;
+}

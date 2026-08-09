@@ -17,6 +17,14 @@ signupForm.addEventListener('submit', function (event) {
   const newRecruit = document.createElement('li');
   newRecruit.textContent = usernameInput.value;
 
+  const banishButton = document.createElement('button');
+    banishButton.textContent = 'Banish';
+    banishButton.classList.add('banish-button');
+    newRecruit.appendChild(banishButton);
+    banishButton.addEventListener('click', function () {
+        newRecruit.remove();
+    });
+
   recruitList.appendChild(newRecruit);
 });
 
