@@ -28,15 +28,6 @@ signupForm.addEventListener('submit', function (event) {
   recruitList.appendChild(newRecruit);
 });
 
-function handleFactionClick() {
-  alert('✨ Choosing your faction... ✨');
-}
-
-factionLink.addEventListener('click', handleFactionClick);
-
-subTitle.innerHTML = "Welcome back to the <strong>Aesopian Realm</strong>!";
-subTitle.style.color = "red";
-
 console.log(subTitle);
 console.log(subTitle2);
 console.log(firstNav);
