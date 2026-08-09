@@ -157,3 +157,9 @@ img.moon-image {
   border-radius: 50%;
   border: 8px double gold;
 }
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+  background-color: rgba(200, 180, 255, 0.25); /* soft lavender aura */
+}
