@@ -133,3 +133,6 @@ I added an ID to the choose_faction.html link on the index page with JS, becuase
 
 ## 40th Update
 I removed the broken faction link so it will work, as that was only temporary. I also used a document.body.style.backgroundColor = "black"; to use JS to change the background of the faction page.
+
+## 41st Update
+I attached a click event listener to my "Choose Your Faction" link in main.js. The listener uses a named callback function, handleFactionClick, so when the player clicks the link the browser calls my function and shows a magical "Choosing your faction..." alert. This shows I understand how to register a click handler with addEventListener and use a function reference instead of calling it directly. I added a new input and greeting area to my index page so players can enter their hero name. In main.js I used getElementById to grab both elements and first wired an anonymous input event listener that updated the greeting text live as the player typed. I refactored the anonymous input listener into a named callback function called handlePlayerNameInput and passed it to addEventListener as a function reference (without parentheses). The greeting still updates in real time, and this proves I understand anonymous vs named callbacks and how the browser calls my function when the input event happens.
