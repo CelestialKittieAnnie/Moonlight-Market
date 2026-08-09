@@ -139,3 +139,6 @@ I attached a click event listener to my "Choose Your Faction" link in main.js. T
 
 ## 42nd Update
 I added a real signup form to index.html with labels correctly linked to username and password inputs using matching for/id attributes. Each input has a name, so when I click the "Sign Up" button the browser does a default GET request and reloads the page with a query string like ?username=cat_prince&password=roses. This confirms I understand basic HTML form structure and how input values become key=value pairs in the URL without JavaScript.
+
+## 43rd Update
+I upgraded the signup ritual so the browser no longer reloads the page on submit. In main.js I added a submit event listener to the form and called event.preventDefault() to stop the default GET request. Inside that handler, I read the current value of the #signup-username input using usernameInput.value, log it to the console, and then create a new li element with document.createElement('li'). I set its textContent to the typed username and append it to a new ul id="recruit-list" under the form using recruitList.appendChild(newRecruit). Now every time I click "Sign Up", the page stays in place and a new recruit name is added live to the list, proving I can read form data and update the DOM without a page reload.
