@@ -8,16 +8,6 @@ const firstNav = document.querySelector(".top-nav");
 
 const factionLink = document.getElementById('faction-link');
 
-const playerNameInput = document.getElementById('player-name');
-
-const playerGreeting = document.getElementById('player-greeting');
-
-function handlePlayerNameInput() {
-  playerGreeting.textContent = 'Welcome, ' + playerNameInput.value + ' ✨';
-}
-
-playerNameInput.addEventListener('input', handlePlayerNameInput);
-
 function handleFactionClick() {
   alert('✨ Choosing your faction... ✨');
 }
