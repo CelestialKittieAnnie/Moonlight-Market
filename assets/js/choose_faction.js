@@ -43,3 +43,33 @@ async function loadTestUser() {
 console.log('ABOUT TO CALL loadTestUser');
 
 loadTestUser();
+
+async function loadDecrees() {
+  const res = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=5');
+  const decrees = await res.json();
+
+  const list = document.getElementById('faction-list-api');
+
+  for (const decree of decrees) {
+    const li = document.createElement('li');
+    li.innerHTML = `<h2>[${decree.id}] <em>${decree.title}</em></h2><p>${decree.body}</p>`;
+    list.appendChild(li);
+  }
+}
+
+loadDecrees();
+
+async function loadCitizens() {
+  const res = await fetch('https://jsonplaceholder.typicode.com/users?_limit=5');
+  const citizens = await res.json();
+
+  const list = document.getElementById('citizen-list-api');
+
+  for (const citizen of citizens) {
+    const li = document.createElement('li');
+    li.innerHTML = `<strong>${citizen.username}</strong> — ${citizen.email}`;
+    list.appendChild(li);
+  }
+}
+
+loadCitizens();
