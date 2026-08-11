@@ -123,6 +123,18 @@ p {
   border-radius: 8px;
 }
 
+.country-card {
+  background-color: rgb(30, 53, 27);
+  color: gold;
+  padding: 16px;
+  margin: 24px auto;
+  max-width: 500px;
+  border: 2px solid rgb(230, 226, 39);
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
 #hero-title {
   font-size: 36px;
   color: gold;
