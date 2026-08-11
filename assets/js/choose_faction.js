@@ -1,75 +1,36 @@
 console.log('🌸 LOADED CHOOSE_FACTION.JS (fresh version)');
 
-const allSections = document.querySelectorAll("section");
+const searchInput = document.getElementById('faction-search-input');
+const searchButton = document.getElementById('faction-search-button');
+const resultsList = document.getElementById('faction-list-api');
 
-const questItems = document.querySelectorAll('li');
+function renderFactions(factions) {
+  resultsList.innerHTML = '';
 
-function handleItemClick() {
-  this.classList.toggle('done');
+  for (const faction of factions) {
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <h3>${faction.name}</h3>
+      <p><strong>Continent:</strong> ${faction.continent}</p>
+      <p>${faction.tagline}</p>
+    `;
+    resultsList.appendChild(li);
+  }
 }
 
-questItems.forEach(function (item) {
-  item.addEventListener('click', handleItemClick);
+searchButton.addEventListener('click', function () {
+  const term = searchInput.value.trim();
+  console.log('Searching for:', term);
+
+  const lowerTerm = term.toLowerCase();
+
+  const matchingFactions = factionsData.filter(function (faction) {
+    return (
+      faction.name.toLowerCase().includes(lowerTerm) ||
+      faction.continent.toLowerCase().includes(lowerTerm)
+    );
+  });
+
+  console.log('Matching factions:', matchingFactions);
+  renderFactions(matchingFactions);
 });
-
-document.body.style.backgroundColor = "black";
-
-console.log(allSections);
-
-console.log(allSections[0]);
-
-console.log(allSections[1]);
-
-async function loadTestPost() {
-  const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
-  console.log('Sealed crate (Response object):', response);
-
-  const data = await response.json();
-  console.log('Unpacked potions (parsed JSON):', data);
-}
-
-console.log('🧪 ABOUT TO CALL loadTestPost');
-
-loadTestPost();
-
-async function loadTestUser() {
-  const response = await fetch('https://jsonplaceholder.typicode.com/users/1');
-  console.log('Sealed crate (Response object):', response);
-
-  const data = await response.json();
-  console.log('Unpacked user data (parsed JSON):', data);
-}
-
-console.log('ABOUT TO CALL loadTestUser');
-
-loadTestUser();
-
-async function loadDecrees() {
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=5');
-  const decrees = await res.json();
-
-  const list = document.getElementById('faction-list-api');
-
-  for (const decree of decrees) {
-    const li = document.createElement('li');
-    li.innerHTML = `<h2>[${decree.id}] <em>${decree.title}</em></h2><p>${decree.body}</p>`;
-    list.appendChild(li);
-  }
-}
-
-loadDecrees();
-
-async function loadCitizens() {
-  const res = await fetch('https://jsonplaceholder.typicode.com/users?_limit=5');
-  const citizens = await res.json();
-
-  const list = document.getElementById('citizen-list-api');
-
-  for (const citizen of citizens) {
-    const li = document.createElement('li');
-    li.innerHTML = `<strong>${citizen.username}</strong> — ${citizen.email}`;
-    list.appendChild(li);
-  }
-}
-
-loadCitizens();
